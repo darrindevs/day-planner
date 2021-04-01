@@ -8,6 +8,7 @@
             2: the text input
             3: a save button
 3. Once a user inputs text into the form they can click the save button
+    > the save button can use font awesome for the icon
     > the save button uses an event listener on the click to save the input to local storage
     > so that the input content is saved even after the page is refreshed
     > each input value is associated with a date so that it can be removed with it is no longer that date 

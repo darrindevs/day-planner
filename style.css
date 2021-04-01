@@ -30,11 +30,25 @@ textarea{
   border-radius: 15px;
 }
 
-.row {
+/*.row {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
+}*/
+
+/*Column Classes  */
+.time {
+  max-width: 10%;
 }
+
+.entry {
+
+}
+
+.save {
+  max-width: 10%;
+}
+
 
 .hour {
   background-color: #ffffff;
@@ -68,4 +82,44 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+input {
+  border-color: white;
+}
+
+
+/************** MEDIA QUERIES ***************/
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+  body {
+    background: #772014;
+  }
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #bb8588;
+  }
+  /*Column Classes  */
+.time {
+  max-width: 25%;
+}
+
+.entry {
+
+}
+
+.save {
+  max-width: 25%;
+}
+}
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+  body {
+    background-color: #8ac4ff;
+  }
 }
