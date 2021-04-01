@@ -1,0 +1,24 @@
+1. The user see's today's date at the top of the planner
+    > ⏰ use moments.js to dynamically updated the date  
+2. The user should be able to enter items into a planner for today
+    > Create a series of form inputs situated within a table
+        > the table consists of 8 rows representing the hours of 9-5
+        > the table has 3 columns: 
+            1: the hour slot
+            2: the text input
+            3: a save button
+3. Once a user inputs text into the form they can click the save button
+    > the save button uses an event listener on the click to save the input to local storage
+    > so that the input content is saved even after the page is refreshed
+    > each input value is associated with a date so that it can be removed with it is no longer that date 
+4. When the user views the planner they only see input options and saved content for TODAY 
+    > views of the planner are dynamic based on the current time
+    > ⏰ use moments.js to dyamically update views 
+    > this includes the date at the top of the planner
+    > this includes input content only for today
+    > anything that was input and saved yesterday is no longer in view
+    > all entries are for today and saved in local storage for view today
+    > entries for yesterday are removed from local storage
+    > upon load we will compare the current date to the saved date to deterimine whether or not to show the content
+5. When the user views the planer each row is dynamically styled by color to represent the past (earlier today), present, or future (later today)
+    ⏰ use moments.js to dynamically updated the css 
