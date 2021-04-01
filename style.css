@@ -1,7 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1;
+  font-size: 24px;
 }
 
 textarea{
@@ -30,11 +29,11 @@ textarea{
   border-radius: 15px;
 }
 
-/*.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
-}*/
+.row {
+  height: 36px;
+  border-top: 1px solid white;
+  padding: 10px;
+}
 
 /*Column Classes  */
 .time {
@@ -83,6 +82,8 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+
 
 input {
   border-color: white;
