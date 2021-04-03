@@ -1,7 +1,6 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   font-size: 24px;
-  background-color:;
 }
 
 textarea{
@@ -13,44 +12,35 @@ textarea{
   padding: 10px;
 }
 
+
 .jumbotron {
   text-align: center;
   background-color: transparent;
   color: black;
-  border-radius: 0;
-  border-bottom: 10px solid black;
+  
+}
+.card {
+  border-color: black;
+  border-style: dashed;
 }
 
-.description{
-  white-space: pre-wrap;
+/* Style Inputs */
+input {
+  border-color: white;
+  
 }
 
-.time-block{
-  text-align: center;
-  border-radius: 15px;
+input, textarea{
+  color: black;
+  border-color: white;
 }
 
-.row {
-  height:;
-  border-top: 1px solid white;
-  padding: 10px;
+.row-btn {
+  border-radius: 4px;
+  padding-top: 10px;
 }
 
-/*Column Classes  */
-.time {
-  max-width: 10%;
-}
-
-.entry {
-
-}
-
-.save {
-  max-width: 10%;
-}
-
-
-
+/* Styles for dynamically color coding rows based on time */
 .past {
   background-color: lightgrey;
   color: black;
@@ -66,48 +56,16 @@ textarea{
   color: white;
 }
 
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
-}
-
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-}
-
-
-input {
-  border-color: white;
-  
-}
-
-input, textarea{
-  color: black;
-}
-
-
 /************** MEDIA QUERIES ***************/
 
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
-  body {
-    background: #772014;
-  }
+  
 }
 
 /* Large smartphones - navbar changes color */
 @media screen and (max-width: 768px) {
-  body {
-    background-color: #bb8588;
-  }
-  /*Column Classes  */
-
-
-
+  
 
 /* Small smartphones - image placeholders change color */
 @media screen and (max-width: 576px) {
