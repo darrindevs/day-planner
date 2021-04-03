@@ -4,14 +4,14 @@
 title="Day Planner" width="" />
 
 ## Deployed Application
-[Code Quiz](https://darrindevs.github.io/day-planner/)
+[Day Planner](https://darrindevs.github.io/day-planner/)
 
 ## Summary 
 This fun little app is a calendar application that allows a user to save entries for each hour of the day. When the user clicks the save button their entries are saved to local storage. 
 
 Times are updated using the Moment.js library. As the day progresses the hour blocks in the planner update their color dynamically. ✨ All magically powered by JavaScript. 
 
-This app also makes use of third party APIs jQuery and Bootstrap. 
+This app also makes use of third party APIs jQuery, Google Fonts and Bootstrap. 
 
 ## Technologies Used
 - 🏗 JavaScript - JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm.
@@ -20,6 +20,7 @@ This app also makes use of third party APIs jQuery and Bootstrap.
 - 🦴 HTML - Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser.
 - 👗 CSS - Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. 
 - 👢 Bootstrap - Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
+- 𝒢 Google Fonts - Google Fonts is a library of more than a thousand free and open source font families, an interactive web directory for browsing the library, and APIs for using the fonts via CSS and Android. 
 - ☑️ Git - Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.
 - ⛅️ GitHub - GitHub, Inc. is a provider of Internet hosting for software development and version control using Git.
 
