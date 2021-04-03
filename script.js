@@ -95,7 +95,7 @@ if (now > 18) {
     $("#18").addClass("future");
 };
 
-//* One click listener 
+//* The click listener 
 
 var rowContEl = $("#row-container");// we are listening on the entire container 
 rowContEl.on('click', '.row-btn', function (event) {
@@ -108,12 +108,9 @@ rowContEl.on('click', '.row-btn', function (event) {
     elementID = elementID.slice(5); // we now want to update elementID to equal "9" instead of "save-9" because....
     var text = $("#" + elementID).val();//because we want to make var text equal to the input id of "9", so we do some slicing and concatenation to set the value of text to "#9" etc
     localStorage.setItem(elementID + ":00", text);// we now concatenate elementID with ":00" because that is the format in the code we are keeping 
-
-//todo update the html like 9
   });
 
-
-
+// set the local storage keys 
 $("#9").val(localStorage.getItem("9:00"));
 $("#10").val(localStorage.getItem("10:00"));
 $("#11").val(localStorage.getItem("11:00"));
@@ -123,15 +120,4 @@ $("#14").val(localStorage.getItem("14:00"));
 $("#15").val(localStorage.getItem("15:00"));
 $("#16").val(localStorage.getItem("16:00"));
 $("#17").val(localStorage.getItem("17:00"));
-
-
-
-$("#reset")//button id
-.on("click", function() {
-    localStorage.storage.clear();
-    console.log(click);
-});
-
-
-//todo remove 6pm
 
