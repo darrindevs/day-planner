@@ -14,10 +14,9 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
     
@@ -29,7 +28,7 @@
       <p class="lead">The Awesome Day Planner</p>
       <p id="currentDT" class="lead"></p>
     </header>
-    <div id="row-container" class="container">
+    <div id="row-container" class="container mb-5">
       <!-- Timeblocks go here -->
       <!-- 9 am -->
       <div class="card">
@@ -44,7 +43,7 @@
       <div id="10am" class="row justify-content">
         <span id="time" class="text-body col-1 ml-3 mt-1 small"><h4>10</h4><span><sup>AM</sup></span></span>
           <input id="10" type="text" class="col" placeholder="What's up?">
-        <button id="save-10" class="row-btn btn-primary col-1"><h4><i class="fas fa-save"></i></h4></button>
+          <button id="save-10" class="row-btn btn-primary col-1 fas fa-save"></button>
       </div>
   </div>
   <!--11 am -->
@@ -52,7 +51,7 @@
     <div id="11am" class="row justify-content">
       <span id="time" class="text-body col-1 ml-3 mt-1 small"><h4>11</h4><span><sup>AM</sup></span></span>
         <input id="11" type="text" class="col" placeholder="What's up?">
-      <button id="save-11" class="row-btn btn-primary col-1"><h4><i class="fas fa-save"></i></h4></button>
+        <button id="save-11" class="row-btn btn-primary col-1 fas fa-save"></button>
     </div>
 </div>
 <!--12 pm -->
@@ -60,7 +59,7 @@
   <div id="12pm" class="row justify-content">
     <span id="time" class="text-body col-1 ml-3 mt-1 small"><h4>12</h4><span><sup>PM</sup></span></span>
       <input id="12" type="text" class="col" placeholder="What's up?">
-    <button id="save-12" class="row-btn btn-primary col-1"><h4><i class="fas fa-save"></i></h4></button>
+      <button id="save-12" class="row-btn btn-primary col-1 fas fa-save"></button>
   </div>
 </div>
 <!--1 pm -->
@@ -68,7 +67,7 @@
   <div id="1pm" class="row justify-content">
     <span id="time" class="text-body col-1 ml-3 mt-1 small"><h4>1</h4><span><sup>PM</sup></span></span>
       <input id="13" type="text" class="col" placeholder="What's up?">
-    <button id="save-13" class="row-btn btn-primary col-1"><h4><i class="fas fa-save"></i></h4></button>
+      <button id="save-13" class="row-btn btn-primary col-1 fas fa-save"></button>
   </div>
 </div>
 <!--2 pm -->
@@ -76,7 +75,7 @@
   <div id="2pm" class="row justify-content">
     <span id="time" class="text-body col-1 ml-3 mt-1 small"><h4>2</h4><span><sup>PM</sup></span></span>
       <input id="14" type="text" class="col" placeholder="What's up?">
-    <button id="save-14" class="row-btn btn-primary col-1"><h4><i class="fas fa-save"></i></h4></button>
+      <button id="save-14" class="row-btn btn-primary col-1 fas fa-save"></button>
   </div>
 </div>
 <!--3 pm -->
@@ -84,7 +83,7 @@
   <div id="3pm" class="row justify-content">
     <span id="time" class="text-body col-1 ml-3 mt-1 small"><h4>3</h4><span><sup>PM</sup></span></span>
       <input id="15" type="text" class="col" placeholder="What's up?">
-    <button id="save-15" class="row-btn btn-primary col-1"><h4><i class="fas fa-save"></i></h4></button>
+      <button id="save-15" class="row-btn btn-primary col-1 fas fa-save"></button>
   </div>
 </div>
 <!--4 pm -->
@@ -92,7 +91,7 @@
   <div id="4pm" class="row justify-content">
     <span id="time" class="text-body col-1 ml-3 mt-1 small"><h4>4</h4><span><sup>PM</sup></span></span>
       <input id="16" type="text" class="col" placeholder="What's up?">
-    <button id="save-16" class="row-btn btn-primary col-1"><h4><i class="fas fa-save"></i></h4></button>
+      <button id="save-16" class="row-btn btn-primary col-1 fas fa-save"></button>
   </div>
 </div>
 <!--5 pm -->
@@ -100,23 +99,11 @@
   <div id="5pm" class="row justify-content">
     <span id="time" class="text-body col-1 ml-3 mt-1 small"><h4>5</h4><span><sup>PM</sup></span></span>
       <input id="17" type="text" class="col" placeholder="What's up?">
-    <button id="save-17" class="row-btn btn-primary col-1"><h4><i class="fas fa-save"></i></h4></button>
+      <button id="save-17" class="row-btn btn-primary col-1 fas fa-save"></button>
   </div>
-</div>
-<!--6 pm -->
-<div class="card">
-  <div id="6pm" class="row justify-content pb-5">
-    <span id="time" class="text-body col-1 ml-3 mt-1 small"><h4>6</h4><span><sup>PM</sup></span></span>
-      <input id="18" type="text" class="col" placeholder="What's up?">
-    <button id="save-18" class="row-btn btn-primary col-1"><h4><i class="fas fa-save"></i></h4></button>
-  </div>
-</div>
-      
+</div>      
     </div><!-- >timeblocks-->
 
-    <div class="d-flex justify-content-center my-5">
-      <button id="reset" type="button" class="btn btn-danger">Reset</button>
-    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="script.js"></script>
