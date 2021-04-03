@@ -13,8 +13,7 @@ $("#currentDT").append(date);
 
 // Moment.js gets current date and time 
 var now = new Date().getHours();
-console.log(now);
-
+console.log("now=" + now);
 
 if (now > 9) {
     $("#9").addClass("past");
@@ -114,84 +113,22 @@ rowContEl.on('click', '.row-btn', function (event) {
   });
 
 
-//* Create an event listener for the click on the Save icon for each row 
-// 9am
-//$("#save-9")//button id
-//.on("click", function() {
-   // var text = $("#9").val();
-    //localStorage.setItem("9:00", text);
-//});
+
 $("#9").val(localStorage.getItem("9:00"));
-
-// 10am
-$("#save-10")
-.on("click", function() {
-    var text = $("#10").val();
-    localStorage.setItem("10:00", text);
-});
 $("#10").val(localStorage.getItem("10:00"));
-
-// 11am
-$("#save-11")
-.on("click", function() {
-    var text = $("#11").val();
-    localStorage.setItem("11:00", text);
-});
 $("#11").val(localStorage.getItem("11:00"));
-
-// 12pm
-$("#save-12")
-.on("click", function() {
-    var text = $("#12").val();
-    localStorage.setItem("12:00", text);
-});
 $("#12").val(localStorage.getItem("12:00"));
-
-// 1pm
-$("#save-13")
-.on("click", function() {
-    var text = $("#13").val();
-    localStorage.setItem("13:00", text);
-});
 $("#13").val(localStorage.getItem("13:00"));
-
-// 2pm
-$("#save-14")
-.on("click", function() {
-    var text = $("#14").val();
-    localStorage.setItem("14:00", text);
-});
 $("#14").val(localStorage.getItem("14:00"));
-
-// 3pm
-$("#save-15")
-.on("click", function() {
-    var text = $("#15").val();
-    localStorage.setItem("15:00", text);
-});
 $("#15").val(localStorage.getItem("15:00"));
-
-// 4pm
-$("#save-16")
-.on("click", function() {
-    var text = $("#16").val();
-    localStorage.setItem("16:00", text);
-});
 $("#16").val(localStorage.getItem("16:00"));
-
-// 5pm
-$("#save-17")
-.on("click", function() {
-    var text = $("#17").val();
-    localStorage.setItem("17:00", text);
-});
 $("#17").val(localStorage.getItem("17:00"));
 
-//todo clear the saved at end of day
+
 
 $("#reset")//button id
 .on("click", function() {
-    localStorage.cache.delete();
+    localStorage.storage.clear();
     console.log(click);
 });
 
