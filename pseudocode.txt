@@ -1,8 +1,8 @@
 1. The user see's today's date at the top of the planner
     > ⏰ use moments.js to dynamically updated the date  
 2. The user should be able to enter items into a planner for today
-    > Create a series of form inputs situated within a table
-        > the table consists of 8 rows representing the hours of 9-5
+    > Create a series of form inputs in the body
+        > the inputs are 8 rows representing the hours of 9-5
         > the table has 3 columns: 
             1: the hour slot
             2: the text input
